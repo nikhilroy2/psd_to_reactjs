@@ -11,7 +11,7 @@ export default class SynChart extends Component {
 	render() {
 		const options = {
 			animationEnabled: true,
-			theme: "dark2",
+			theme: "dark1",
 			backgroundColor: "transparent",
 			title: {
 				text: "",

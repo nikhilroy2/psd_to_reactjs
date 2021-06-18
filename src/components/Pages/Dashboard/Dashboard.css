@@ -1,4 +1,18 @@
 .top_bottom_cyan_bg {
   background: url("./cyan_bg_border.png") center/100% 100% no-repeat;
 }
+
+.bg_after_globe_u {
+  position: relative;
+}
+
+.bg_after_globe_u::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url("./globe_u.png") center bottom/contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=Dashboard.css.map */

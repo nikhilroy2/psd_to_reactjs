@@ -624,7 +624,7 @@ const Section4D = () => {
 const Section5D = () => {
     return (
         <section className="section_paddingX">
-            <div className="content_wrapper bg_blue_9 px-2 px-md-5 py-3 py-md-5 radius_30">
+            <div className="content_wrapper bg_after_globe_u bg_blue_9 px-2 px-md-5 py-3 py-md-5 radius_30">
                 <div className="chart_wrapper">
                     <h3 className="text-end text_cyan font_size_68">
                         矿工监视
