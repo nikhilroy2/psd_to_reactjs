@@ -2,8 +2,9 @@
 //source: https://canvasjs.com/react-charts/chart-with-crosshair/
 import CanvasJSReact from './canvasjs.react';
 import React, { Component } from 'react';
+import './SynChart.css';
 //var CanvasJSReact = require('./canvasjs.react');
-let CanvasJS = CanvasJSReact.CanvasJS;
+//let CanvasJS = CanvasJSReact.CanvasJS;
 let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 export default class SynChart extends Component {
@@ -75,7 +76,7 @@ export default class SynChart extends Component {
 		}
 
 		return (
-			<div>
+			<div className="SynChart">
 				<CanvasJSChart options={options}
 				/* onRef={ref => this.chart = ref} */
 				/>

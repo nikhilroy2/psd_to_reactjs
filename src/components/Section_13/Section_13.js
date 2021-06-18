@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section_13.css'
-function Section_13(props) {
+function Section13(props) {
     return (
         <section className="Section_13 section_paddingX py-3">
             <br /><br /><br />
@@ -34,4 +34,4 @@ function Section_13(props) {
         </section>
     );
 }
-export default Section_13;
+export default Section13;

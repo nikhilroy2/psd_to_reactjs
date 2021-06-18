@@ -1,8 +1,9 @@
 import DonutChart from 'react-donut-chart';
 //things I would never do:
+import './DonutChart.css';
 export default function DoughnutChart() {
 	return (
-		<DonutChart className="fill_white" colors={['#A0A0A0', '#19B819', '#FF0000', '#F55B08']}
+		<DonutChart className="DonutChart" colors={['#A0A0A0', '#19B819', '#FF0000', '#F55B08']}
 			data={[{
 				label: '惰性矿工',
 				value: 8

@@ -1,13 +1,10 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
 import './Header.css'
-function Header(props) {
+function Header() {
     return (
         <header className="Header">
             <div className="header_wrapper d-flex justify-content-between align-items-center">
@@ -29,12 +26,12 @@ function Header(props) {
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end custom_dropdown_menu bg_blue_9" aria-labelledby="dropdownMenuButton">
                                 <li>
-                                    <Link to="/" className="dropdown-item text-white">
+                                    <Link to="/" className="dropdown-item text-white font_size_29">
                                         First Page
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/dashboard" className="dropdown-item text-white">
+                                    <Link to="/dashboard" className="dropdown-item text-white font_size_29">
                                         Second Page
                                     </Link>
                                 </li>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Section_5.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { increment, decrement, redoCounterAction } from '../../redux_management/reducer/reducer';
-function Section_5(props) {
+function Section5() {
     let counterValue = useSelector(state => state.counter.value);
     const dispatch = useDispatch()
     function valueChanger(e) {
@@ -81,4 +81,4 @@ function Section_5(props) {
     );
 }
 
-export default Section_5;
+export default Section5;

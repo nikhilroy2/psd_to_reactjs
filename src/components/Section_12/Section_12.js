@@ -1,8 +1,8 @@
 import React from 'react';
 import './Section_12.css';
-function Section_12(props) {
+function Section12(props) {
     return (
-        <section className="Section_12">
+        <section className="">
             <h4 className="text-center text-white font_size_49">
                 提供全球领先的去中心化借贷服务方案
             </h4>
@@ -19,4 +19,4 @@ function Section_12(props) {
         </section>
     );
 }
-export default Section_12;
+export default Section12;

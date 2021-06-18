@@ -9,37 +9,37 @@ function Footer(props) {
                 </h4>
                 <ul className="list-unstyled flex-grow-1 m-0 p-0 d-flex align-items-center justify-content-between">
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <i className="fab fa-facebook    "></i>
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <i className="fab fa-twitter    "></i>
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <i className="fab fa-linkedin-in    "></i>
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <i className="fab fa-tumblr    "></i>
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <img src={require('./chat_c.png').default} alt="chat_c" />
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <img src={require('./google.png').default} alt="google" />
                         </a>
                     </li>
                     <li>
-                        <a className="font_size_49 text-white" href="#">
+                        <a className="font_size_49 text-white" href="http://fb.me">
                             <img src={require('./youtube.png').default} alt="youtube" />
                         </a>
                     </li>

@@ -1,8 +1,6 @@
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import './DrilldownChart.css';
-const percentage = 66;
-
 export default function DrilldownChart() {
     return (
         <div className="d-flex justify-content-center DrilldownChart">

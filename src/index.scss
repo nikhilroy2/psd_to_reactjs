@@ -235,6 +235,18 @@ input[type="number"] {
     height: 30px;
   }
 }
+.h_60 {
+  height: 60px;
+  @media (max-width: 767px) {
+    height: 35px;
+  }
+}
+.h_90 {
+  height: 90px;
+  @media (max-width: 767px) {
+    height: 50px;
+  }
+}
 
 // margin and padding
 .section_paddingX {
@@ -370,17 +382,16 @@ input[type="number"] {
   }
 }
 
-.custom_dropdown{
-  &>button{
-    &::after{
+.custom_dropdown {
+  & > button {
+    &::after {
       display: none;
     }
   }
-  ul>li>a{
-    background: transparent;    
-    &:hover{
+  ul > li > a {
+    background: transparent;
+    &:hover {
       background: rgba(8, 14, 35, 0.315);
     }
   }
-  
 }

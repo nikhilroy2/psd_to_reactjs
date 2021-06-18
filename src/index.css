@@ -355,6 +355,26 @@ input[type="number"] {
   }
 }
 
+.h_60 {
+  height: 60px;
+}
+
+@media (max-width: 767px) {
+  .h_60 {
+    height: 35px;
+  }
+}
+
+.h_90 {
+  height: 90px;
+}
+
+@media (max-width: 767px) {
+  .h_90 {
+    height: 50px;
+  }
+}
+
 .section_paddingX {
   padding-left: 40px;
   padding-right: 40px;

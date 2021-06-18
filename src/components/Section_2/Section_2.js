@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section_2.css'
-function Section_2(props) {
+function Section2() {
     return (
         <section className="Section_2 mt-5">
             <h3 className="font_size_68 text-white section_paddingX mb-3 mb-md-5 font_family_FZDHTJW" style={{ letterSpacing: '15px' }}>
@@ -22,4 +22,4 @@ function Section_2(props) {
         </section>
     );
 }
-export default Section_2;
+export default Section2;

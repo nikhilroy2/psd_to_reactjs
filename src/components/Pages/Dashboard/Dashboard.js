@@ -3,21 +3,21 @@ import SynChart from '../../reuse_components/SynChart/SynChart';
 import DrilldownChart from '../../reuse_components/DrilldownChart/DrilldownChart';
 import DoughnutChart from '../../reuse_components/DoughnutChart/DoughnutChart';
 import './Dashboard.css';
-function DashboardPage(props) {
+function DashboardPage() {
     return (
         <>
-            <Section_1_d></Section_1_d>
-            <Section_2_d></Section_2_d>
-            <Section_3_d></Section_3_d>
-            <Section_4_d></Section_4_d>
-            <Section_5_d></Section_5_d>
+            <Section1D></Section1D>
+            <Section2D></Section2D>
+            <Section3D></Section3D>
+            <Section4D></Section4D>
+            <Section5D></Section5D>
         </>
     );
 }
-const Section_1_d = () => {
+const Section1D = () => {
     return (
         <section className="section_paddingX">
-            <div className="content_head">
+            <div className="content_head font_family_FZDHTJW">
                 <h3 className="font_size_37 text-end text-white mb-2 mb-md-4">
                     全网实时算力
                 </h3>
@@ -28,12 +28,12 @@ const Section_1_d = () => {
         </section>
     )
 }
-const Section_2_d = () => {
+const Section2D = () => {
     return (
         <section className="section_paddingX">
             <br /><br /><br /> <br />
             <div className="content_wrapper bg_blue_9 px-2 py-3 py-md-5 radius_30">
-                <table className="w-100 font_size_37 text-center">
+                <table className="w-100 font_size_37 text-center font_family_FZDHTJW">
                     <tbody>
                         <tr className="text-white">
                             <td>总发行量</td>
@@ -62,7 +62,7 @@ const Section_2_d = () => {
     )
 }
 
-const Section_3_d = () => {
+const Section3D = () => {
     return (
         <section className="section_paddingX">
             <br /><br /><br />
@@ -70,29 +70,29 @@ const Section_3_d = () => {
                 <div className="chart_wrapper">
 
                     <div className="row">
-                        <div className="col-12 col-md-7">
+                        <div className="col-12 col-md-7 mb-3 mb-md-5">
                             <div className="col_wrapper">
                                 {/* <img src={require('./drilldown.png').default} alt="" /> */}
                                 <DrilldownChart></DrilldownChart>
                             </div>
                         </div>
-                        <div className="col-12 col-md-5">
+                        <div className="col-12 col-md-5 mb-3 mb-md-5">
                             <div className="col_wrapper text-center ">
                                 <div className="txt_wrapper top_bottom_cyan_bg py-3">
-                                    <span className="text_cyan font_size_49">72人</span>
+                                    <span className="text_cyan font_size_49 font_family_alibabapuhuiti">72人</span>
                                     <br />
-                                    <span className="text-white font_size_29 ">
+                                    <span className="text-white font_size_29 font_family_FZDHTJW">
                                         我的矿工
                                     </span>
                                 </div>
                                 <br />
                                 <br />
                                 <div className="txt_wrapper top_bottom_cyan_bg py-3">
-                                    <span className="text_cyan font_size_49">
+                                    <span className="text_cyan font_size_49 font_family_alibabapuhuiti">
                                         284.69K
                                     </span>
                                     <br />
-                                    <span className="text-white font_size_29">
+                                    <span className="text-white font_size_29 font_family_FZDHTJW">
                                         矿工贡献算力
                                     </span>
                                 </div>
@@ -108,7 +108,7 @@ const Section_3_d = () => {
                     <form action="" method="post">
                         <div className="d-flex ">
                             <input type="text" placeholder="www.tlb.com/4sd....12a/" className="font_size_37 form-control w-100" />
-                            <button className="btn btn-muted bg_cyan rounded-0 text-white ms-3 font_size_37 px-3 px-md-5 text-nowrap d-block">
+                            <button className="btn btn-muted bg_cyan rounded-0 text-white ms-3 font_size_37 text-nowrap d-flex w-50 justify-content-center">
                                 点击复制
                             </button>
                         </div>
@@ -120,37 +120,37 @@ const Section_3_d = () => {
                             <br />
                             <ul className="list-unstyled w-100 m-0 p-0 d-flex align-items-center justify-content-between">
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         <i className="fab fa-facebook    "></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         <i className="fab fa-twitter    "></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         <i className="fab fa-linkedin-in    "></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white"href="http://fb.me">
                                         <i className="fab fa-tumblr    "></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         <img src={require('./chat_c.png').default} alt="chat_c" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         <img src={require('./social_ss.png').default} alt="social_ss.png" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="font_size_49 text-white" href="#">
+                                    <a className="font_size_49 text-white" href="http://fb.me">
                                         {/* <img src={require('./youtube.png').default} alt="youtube" /> */}
                                     </a>
                                 </li>
@@ -168,7 +168,7 @@ const Section_3_d = () => {
                     <br /><br />
                     <div className="d-flex justify-content-between">
                         <div className="col_wrapper d-flex align-items-start">
-                            <img style={{ height: "90px" }} src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                            <img className="h_90" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                             <div className="content font_size_37 ms-2 ms-md-3">
                                 <h4 className="text-white">
                                     TLB
@@ -180,9 +180,9 @@ const Section_3_d = () => {
                         </div>
                         <div className="col_wrapper d-flex align-items-start">
                             <span className="bg_cyan rounded-circle">
-                                <img className="bg_blue_9 rounded-circle" style={{ height: "90px" }} src={require('./bitcoin_sm.png').default} alt="bitcoin_sm" />
-                                
-                                </span>
+                                <img className="bg_blue_9 rounded-circle h_90" src={require('./bitcoin_sm.png').default} alt="bitcoin_sm" />
+
+                            </span>
                             <div className="content font_size_37 ms-2 ms-md-3">
                                 <h4 className="text-white">
                                     TLB
@@ -205,7 +205,7 @@ const Section_3_d = () => {
         </section>
     )
 }
-const Section_4_d = () => {
+const Section4D = () => {
     return (
         <section className="section_paddingX">
             <div className="content_wrapper bg_blue_9 px-2 px-md-5 py-3 py-md-5 radius_30">
@@ -224,7 +224,7 @@ const Section_4_d = () => {
                                 <td className="pb-3">
                                     <div className="d-flex align-items-center justify-content-end">
                                         正在挖矿
-                                       <img src={require('./checkmark.png').default} alt="check" className="h_50" />
+                                        <img src={require('./checkmark.png').default} alt="check" className="h_50" />
                                     </div>
                                 </td>
                             </tr>
@@ -234,7 +234,7 @@ const Section_4_d = () => {
                                 </td>
                                 <td className="pb-3">
                                     <div className="d-flex align-items-center justify-content-end">
-                                       <img src={require('./checkmark.png').default} alt="check" className="h_50" />
+                                        <img src={require('./checkmark.png').default} alt="check" className="h_50" />
                                     </div>
                                 </td>
                             </tr>
@@ -244,7 +244,7 @@ const Section_4_d = () => {
                                 </td>
                                 <td className="pb-3">
                                     <div className="d-flex align-items-center justify-content-end">
-                                       <img src={require('./checkmark.png').default} alt="check" className="h_50" />
+                                        <img src={require('./checkmark.png').default} alt="check" className="h_50" />
                                     </div>
                                 </td>
                             </tr>
@@ -254,7 +254,7 @@ const Section_4_d = () => {
                                 </td>
                                 <td className="pb-3">
                                     <div className="d-flex align-items-center justify-content-end">
-                                       <img src={require('./checkmark.png').default} alt="check" className="h_50" />
+                                        <img src={require('./checkmark.png').default} alt="check" className="h_50" />
                                     </div>
                                 </td>
                             </tr>
@@ -369,7 +369,7 @@ const Section_4_d = () => {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <div className="col_wrapper">
+                                <div className="col_wrapper p-3" style={{ overflow: "auto" }}>
                                     <table className="w-100 text-center table_spaceY">
                                         <tbody>
                                             <tr className="gray_shadow radius_30">
@@ -394,7 +394,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -420,7 +420,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -446,7 +446,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -472,7 +472,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -498,7 +498,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -524,7 +524,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -550,7 +550,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -576,7 +576,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -602,7 +602,7 @@ const Section_4_d = () => {
                                                             <br />
                                                             TLB
                                                         </span>
-                                                        <img style={{ height: "60px" }} className="ms-3" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
+                                                        <img className="ms-3 h_60" src={require('./gudgudy_sm.png').default} alt="gudgudi" />
                                                     </div>
                                                 </td>
                                             </tr>
@@ -621,7 +621,7 @@ const Section_4_d = () => {
     )
 }
 
-const Section_5_d = () => {
+const Section5D = () => {
     return (
         <section className="section_paddingX">
             <div className="content_wrapper bg_blue_9 px-2 px-md-5 py-3 py-md-5 radius_30">

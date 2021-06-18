@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section_9.css';
-function Section_9(props) {
+function Section9() {
     return (
         <section className="Section_9">
             <br /><br /><br />
@@ -80,4 +80,4 @@ function Section_9(props) {
     );
 }
 
-export default Section_9;
+export default Section9;

@@ -1,0 +1,8 @@
+.SynChart {
+  canvas, #canvasjs-react-chart-container-3 {
+    height: 300px !important;
+    @media (max-width: 767px) {
+      height: 200px !important;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.DonutChart {
+  fill: white;
+}
+
+@media (max-width: 767px) {
+  .DonutChart {
+    height: 200px !important;
+  }
+}
+/*# sourceMappingURL=DonutChart.css.map */

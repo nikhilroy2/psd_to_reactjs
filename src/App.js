@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
-import Section_1 from './components/Section_1/Section_1';
-import Section_2 from './components/Section_2/Section_2';
-import Section_3 from './components/Section_3/Section_3';
-import Section_4 from './components/Section_4/Section_4';
-import Section_5 from './components/Section_5/Section_5';
-import Section_6 from './components/Section_6/Section_6';
-import Section_7 from './components/Section_7/Section_7';
-import Section_8 from './components/Section_8/Section_8';
-import Section_9 from './components/Section_9/Section_9';
-import Section_10 from './components/Section_10/Section_10';
-import Section_11 from './components/Section_11/Section_11';
-import Section_12 from './components/Section_12/Section_12';
-import Section_13 from './components/Section_13/Section_13';
-import Section_14 from './components/Section_14/Section_14';
+import Section1 from './components/Section_1/Section_1';
+import Section2 from './components/Section_2/Section_2';
+import Section3 from './components/Section_3/Section_3';
+import Section4 from './components/Section_4/Section_4';
+import Section5 from './components/Section_5/Section_5';
+import Section6 from './components/Section_6/Section_6';
+import Section7 from './components/Section_7/Section_7';
+import Section8 from './components/Section_8/Section_8';
+import Section9 from './components/Section_9/Section_9';
+import Section10 from './components/Section_10/Section_10';
+import Section11 from './components/Section_11/Section_11';
+import Section12 from './components/Section_12/Section_12';
+import Section13 from './components/Section_13/Section_13';
+import Section14 from './components/Section_14/Section_14';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import DashboardPage from './components/Pages/Dashboard/Dashboard';
-import { BrowserRouter as Router, Switch, Route, withRouter, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { useEffect, useState } from 'react';
 function App() {
@@ -26,8 +26,8 @@ function App() {
   useEffect(() => {
     window.addEventListener('load', function () {
       this.setTimeout(() => {
-        setLoading(false)
-      }, 2000)
+        setLoading(false);
+      }, 1000)
     })
   })
   return (
@@ -55,20 +55,20 @@ function App() {
 const Home = () => {
   return (
     <>
-      <Section_1></Section_1>
-      <Section_2></Section_2>
-      <Section_3></Section_3>
-      <Section_4></Section_4>
-      <Section_5></Section_5>
-      <Section_6></Section_6>
-      <Section_7></Section_7>
-      <Section_8></Section_8>
-      <Section_9></Section_9>
-      <Section_10></Section_10>
-      <Section_11></Section_11>
-      <Section_12></Section_12>
-      <Section_13></Section_13>
-      <Section_14></Section_14>
+      <Section1></Section1>
+      <Section2></Section2>
+      <Section3></Section3>
+      <Section4></Section4>
+      <Section5></Section5>
+      <Section6></Section6>
+      <Section7></Section7>
+      <Section8></Section8>
+      <Section9></Section9>
+      <Section10></Section10>
+      <Section11></Section11>
+      <Section12></Section12>
+      <Section13></Section13>
+      <Section14></Section14>
     </>
   )
 }

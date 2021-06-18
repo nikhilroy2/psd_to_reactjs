@@ -2,7 +2,7 @@ import React from 'react';
 import './Section_1.css';
 import LineChart from '../reuse_components/LineChart/LineChart'
 
-function Section_1(props) {
+function Section1(props) {
     return (
         <section className="Section_1 section_paddingX">
             <div className="text-center">
@@ -44,4 +44,4 @@ function Section_1(props) {
     );
 }
 
-export default Section_1;
+export default Section1;

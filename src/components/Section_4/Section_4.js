@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section_4.css';
-function Section_4(props) {
+function Section4() {
     return (
         <section className="Section_4 my-3 my-md-5 section_paddingX">
             <h3 className="text-center font_size_68 text-white mb-3 font_family_FZDHTJW">
@@ -42,4 +42,4 @@ function Section_4(props) {
     );
 }
 
-export default Section_4;
+export default Section4;

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,IAAI,EAAE,KAAK;CAId;;AAHG,MAAM,EAAE,SAAS,EAAE,KAAK;EAF5B,AAAA,WAAW,CAAA;IAGH,MAAM,EAAE,KAAK,CAAA,UAAU;GAE9B",
+    "sources": [
+        "DonutChart.scss"
+    ],
+    "names": [],
+    "file": "DonutChart.css"
+}

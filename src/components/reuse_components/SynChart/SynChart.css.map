@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,SADO,CACP,MAAM,EADR,SAAS,CACC,iCAAiC,CAAC;EACxC,MAAM,EAAE,gBAAgB;CAIzB;;AAHC,MAAM,EAAE,SAAS,EAAE,KAAK;EAH5B,AACE,SADO,CACP,MAAM,EADR,SAAS,CACC,iCAAiC,CAAC;IAGtC,MAAM,EAAE,gBAAgB;GAE3B",
+    "sources": [
+        "SynChart.scss"
+    ],
+    "names": [],
+    "file": "SynChart.css"
+}
