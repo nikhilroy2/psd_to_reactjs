@@ -18,7 +18,7 @@ import Section14 from './components/Section_14/Section_14';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import DashboardPage from './components/Pages/Dashboard/Dashboard';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { MemoryRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { useEffect, useState } from 'react';
 function App() {
